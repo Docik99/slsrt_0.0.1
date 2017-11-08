@@ -43,4 +43,5 @@ int main()
 	if (rn(mas, n))  sort(mas,n);
 	else cout  <<  "An error has occured while reading input data";
 	cin.get();
+	delete [] mas;
 }
